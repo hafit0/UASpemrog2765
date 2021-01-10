@@ -1,10 +1,10 @@
 # Program Penjualan
-Tujuan utama dari pembuatan program ini adalah untuk memenuhi Tugas uas dari matakuliah Pemrograman Lanjut
+Tujuan utama dari pembuatan program ini adalah untuk memenuhi Tugas uas dari matakuliah Pemrograman Lanjut yaitu mebuat aplikasi berdasarkan kasus atau studi kasus
 
-# Fungsi
+## Fungsi
 Untuk menghitung total dari menu yang dipilih setelah dikurang dengan promo yang tersedia
 
-# Fitur
+## Fitur
 - User dapat melihat daftar makanan yang ditawarkan
 - User dapat memasukkan atau menghapus makanan pilihan ke dalam keranjang
 - User dapat melihat subtotal makanan yang terdapat pada keranjang
@@ -12,10 +12,10 @@ Untuk menghitung total dari menu yang dipilih setelah dikurang dengan promo yang
 - User dapat menggunakan salah satu voucher
 - User dapat melihat harga total termasuk potongannya
 
-# Class Diagram
+## Class Diagram
 ![Class Diagram](https://github.com/hafit0/UASpemrog2765/blob/main/UASpemrog2765/diagram.png)
 
-# Simulasi
+## Simulasi
 - Simulasi 1  
 ![Simulasi 1](https://github.com/hafit0/UASpemrog2765/blob/main/1.PNG)  
 - Simulasi 2  
@@ -23,4 +23,5 @@ Untuk menghitung total dari menu yang dipilih setelah dikurang dengan promo yang
 - Simulasi 3  
 ![Simulasi 3](https://github.com/hafit0/UASpemrog2765/blob/main/3.PNG)  
 
-# Penjelasan
+## Penjelasan
+
