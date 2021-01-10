@@ -1,0 +1,56 @@
+﻿<Window x:Class="UASpemrog2765.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UASpemrog2765"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="599" Width="479">
+    <Grid Margin="0,0,19,-6" HorizontalAlignment="Right" Width="1016">
+        <Rectangle HorizontalAlignment="Left" Height="471" Margin="595,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="401"/>
+        <Label Content="Menu yang Dipilih" HorizontalAlignment="Left" Margin="614,81,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.211,-0.384" FontWeight="Bold" FontSize="20"/>
+        <ListBox x:Name="listKeranjangBelanja" HorizontalAlignment="Left" Height="259" VerticalAlignment="Top" Width="362" Margin="614,123,0,0" MouseDoubleClick="onlistKeranjangBelanjaDoubleClicked" Background="LightGray">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300" />
+
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding item}" TextAlignment="Left"/>
+                        <TextBlock Grid.Row="1" Text="{Binding price}"  TextAlignment="Right"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="SubTotal" HorizontalAlignment="Left" Margin="614,387,0,0" VerticalAlignment="Top"/>
+        <Label Content="Promo" HorizontalAlignment="Left" Margin="614,413,0,0" VerticalAlignment="Top"/>
+        <Label Content="Total" HorizontalAlignment="Left" Margin="614,493,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.392,0.528"/>
+        <Label x:Name="labelSubTotal" Content="0" HorizontalAlignment="Left" Margin="925,387,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.457,0.464"/>
+        <Label x:Name="labelPromo" Content="0" HorizontalAlignment="Left" Margin="925,416,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelTotal" Content="0" HorizontalAlignment="Left" Margin="925,493,0,0" VerticalAlignment="Top"/>
+        <Label Content="Menu" HorizontalAlignment="Left" Margin="603,27,0,0" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="1.87,0.695" FontSize="16"/>
+        <Button Content="+" HorizontalAlignment="Left" Height="33" Margin="670,26,0,0" VerticalAlignment="Top" Width="45" Click="onDaftarMenuClicked"/>
+        <Button x:Name="btnGantiPromo" Content="Ganti" HorizontalAlignment="Left" Height="32" Margin="938,27,0,0" VerticalAlignment="Top" Width="58" Click="onBtnGantiPromoClicked"/>
+        <ListBox x:Name="listPromo" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="362" Margin="614,442,0,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="350" />
+
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding promo}" TextAlignment="Left"/>
+
+
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="Promo" HorizontalAlignment="Left" Margin="860,27,0,0" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="1.87,0.695" FontSize="16"/>
+
+
+
+
+    </Grid>
+</Window>
