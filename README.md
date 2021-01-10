@@ -13,7 +13,7 @@ Untuk menghitung total dari menu yang dipilih setelah dikurang dengan promo yang
 - User dapat melihat harga total termasuk potongannya
 
 # Class Diagram
-![Class Diagram](https://github.com/hafit0/UASpemrog2765/tree/main/UASpemrog2765/diagram.cd)
+![Class Diagram](https://github.com/hafit0/UASpemrog2765/blob/main/UASpemrog2765/diagram.png)
 
 # Simulasi
 - Simulasi 1  
