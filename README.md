@@ -24,4 +24,7 @@ Untuk menghitung total dari menu yang dipilih setelah dikurang dengan promo yang
 ![Simulasi 3](https://github.com/hafit0/UASpemrog2765/blob/main/3.PNG)  
 
 ## Penjelasan
-
+- Terdapat 3 class dalam folder controller yaitu `MenuController.cs` , `PromoController.cs`, dan `MainWindowController.cs`. ketiganya berfungsi untuk menjebatani view dan Model
+-- pada `MenuController.cs` terdapat 3 method yaitu `addItem();` yang berfungsi untuk menambahkan item pada list , kemudian `getItem();` yang berfungsi mengembalikan nilai dari `menuController()` item, dan yang terakhir adalah `menuItem()` berfungsi untuk menyimpan data yang sudah ditambahkan.
+-- pada `PromoController`  terdapat 3 method yaitu `addPromo();` untuk menambahkan promo pada list, kemudian `getPromo();` untuk mengembalikan nilai pada list, dan `PromoController();` untuk menyimpan data sebagai list 
+--
