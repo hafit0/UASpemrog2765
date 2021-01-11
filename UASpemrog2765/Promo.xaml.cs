@@ -37,13 +37,13 @@ namespace UASpemrog2765
 
         private void generateContentPromo()
         {
-            Model.Promo diskon1 = new Model.Promo("Promo Awal tahun Diskon 25 % ", 1);
-            Model.Promo diskon2 = new Model.Promo("Promo Tebus Murah Diskon 30 % atau maksimal 30.000", 2);
-            Model.Promo diskon3 = new Model.Promo("Promo Natal Potongan 10000", 3);
+            Model.Promo promo1 = new Model.Promo("Promo Awal tahun Diskon 25 % ", 1);
+            Model.Promo promo2 = new Model.Promo("Promo Tebus Murah Diskon 30 % atau maksimal 30.000", 2);
+            Model.Promo promo3 = new Model.Promo("Promo Natal Potongan 10000", 3);
 
-            promoController.addPromo(diskon1);
-            promoController.addPromo(diskon2);
-            promoController.addPromo(diskon3);
+            promoController.addPromo(promo1);
+            promoController.addPromo(promo2);
+            promoController.addPromo(promo3);
 
             listBoxDaftarPromo.Items.Refresh();
         }
