@@ -1,3 +1,9 @@
+19.11.2765
+Hafit Abekrori
+19-S1IF-03
+
+
+
 # Program Penjualan
 Tujuan utama dari pembuatan program ini adalah untuk memenuhi Tugas uas dari matakuliah Pemrograman Lanjut yaitu mebuat aplikasi berdasarkan kasus atau studi kasus
 
