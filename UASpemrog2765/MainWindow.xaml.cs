@@ -83,7 +83,7 @@ namespace UASpemrog2765
 
         private void onlistKeranjangBelanjaDoubleClicked(object sender, MouseButtonEventArgs e)
         {
-            if (MessageBox.Show("Kamu ingin menghapus item ini?",
+            if (MessageBox.Show("Apakah kamu ingin menghapus item ini?",
                    "Konfirmasi", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 ListBox listBox = sender as ListBox;
